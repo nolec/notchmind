@@ -1,0 +1,46 @@
+{
+  "name": "notchmind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server --ignore assets/ --ignore src/static",
+    "dev:assets": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nohseungrae/notchmind.git"
+  },
+  "author": "nolec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nohseungrae/notchmind/issues"
+  },
+  "homepage": "https://github.com/nohseungrae/notchmind#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "babelify": "^10.0.0",
+    "del": "^5.1.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "morgan": "^1.9.1",
+    "node-sass": "^4.13.0",
+    "pug": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
